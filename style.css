@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 2.5;
+
+}
+
+html {
+  min-height: 150%;
+}
+
+a:hover {
+  background-color: pink;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+header {
+  font-size: 1.0rem;
+
+
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2.5rem;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('./portfolio.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  border-radius: 13px;
+
+}
+
+
+nav a {
+  margin-right: 2px;
+ 
+
+}
+
+.hero {
+  font-size: 2.5rem;
+  text-decoration: solid purple;
+  border-radius: 13px;
+}
+
+.hero {
+  padding: 2.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url('me.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 13px;
+  background-position: center;
+  line-height: 25vh;
+
+}
+
+
+.box-one {
+  width: 600px;
+  height: 580px;
+  border: 3px solid rgb(176, 95, 176);
+  padding: 2px;
+  margin: auto;
+  font-size: 120%;
+}
+
+
+main {
+  padding: 9.5rem;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('./newbackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  border-radius: 13px;
+  text-align: left;
+  
+}
+
+  
+
+.Work-History {
+
+  flex: 1 0 100%;
+  padding: 1.5rem;
+  /* when the screen resizes, make it so our columns don't jump in size */
+  transition: flex-basis 500ms linear;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  
+}
+
+.box {
+  width: 400px;
+  height: 500px;
+  border: 3px solid rgb(176, 95, 176);
+  padding: 2px;
+  margin: auto;
+  font-size: 165%;
+}
+
+.Contact-Me {
+
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  background-position: center;
+
+
+}
+.Box-three{
+  width: 300px;
+  height: 380px;
+  border: 3px solid rgb(176, 95, 176);
+  padding: 2px;
+  margin: auto;
+  font-size: 165%;
+}
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+
